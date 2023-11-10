@@ -1,0 +1,4 @@
+enum FlagType {
+  svg,
+  icon,
+}
