@@ -4,7 +4,7 @@ import 'package:country_phone_field/src/utils/utils.dart';
 class Country {
   const Country._();
 
-  static const String _basePath = 'packages/country_phone_field/assets/svg';
+  static const _basePath = 'packages/country_phone_field/assets/svg';
 
   static const CountryModel afghanistan = CountryModel(
     name: CountryKeys.afghanistan,
@@ -13,6 +13,7 @@ class Country {
     countryCode: 93,
     isoCode: 'AF',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel alandIslands = CountryModel(
     name: CountryKeys.alandIslands,
@@ -21,6 +22,7 @@ class Country {
     countryCode: 358,
     isoCode: 'AX',
     maxLength: 15,
+    continent: Continent.europe,
   );
   static const CountryModel albania = CountryModel(
     name: CountryKeys.albania,
@@ -29,6 +31,7 @@ class Country {
     countryCode: 355,
     isoCode: 'AL',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel algeria = CountryModel(
     name: CountryKeys.algeria,
@@ -37,6 +40,7 @@ class Country {
     countryCode: 213,
     isoCode: 'DZ',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel americanSamoa = CountryModel(
     name: CountryKeys.americanSamoa,
@@ -45,6 +49,7 @@ class Country {
     countryCode: 1684,
     isoCode: 'AS',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel andorra = CountryModel(
     name: CountryKeys.andorra,
@@ -53,6 +58,7 @@ class Country {
     countryCode: 376,
     isoCode: 'AD',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel angola = CountryModel(
     name: CountryKeys.angola,
@@ -61,6 +67,7 @@ class Country {
     countryCode: 244,
     isoCode: 'AO',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel anguilla = CountryModel(
     name: CountryKeys.anguilla,
@@ -69,6 +76,7 @@ class Country {
     countryCode: 1264,
     isoCode: 'AI',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel antarctica = CountryModel(
     name: CountryKeys.antarctica,
@@ -77,6 +85,7 @@ class Country {
     countryCode: 672,
     isoCode: 'AQ',
     maxLength: 6,
+    continent: Continent.antarctica,
   );
   static const CountryModel antiguaAndBarbuda = CountryModel(
     name: CountryKeys.antiguaAndBarbuda,
@@ -85,6 +94,7 @@ class Country {
     countryCode: 1268,
     isoCode: 'AG',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel argentina = CountryModel(
     name: CountryKeys.argentina,
@@ -93,6 +103,7 @@ class Country {
     countryCode: 54,
     isoCode: 'AR',
     maxLength: 10,
+    continent: Continent.southAmerica,
   );
   static const CountryModel armenia = CountryModel(
     name: CountryKeys.armenia,
@@ -101,6 +112,7 @@ class Country {
     countryCode: 374,
     isoCode: 'AM',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel aruba = CountryModel(
     name: CountryKeys.aruba,
@@ -109,6 +121,7 @@ class Country {
     countryCode: 297,
     isoCode: 'AW',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel australia = CountryModel(
     name: CountryKeys.australia,
@@ -117,6 +130,7 @@ class Country {
     countryCode: 61,
     isoCode: 'AU',
     maxLength: 15,
+    continent: Continent.oceania,
   );
   static const CountryModel austria = CountryModel(
     name: CountryKeys.austria,
@@ -125,6 +139,7 @@ class Country {
     countryCode: 43,
     isoCode: 'AT',
     maxLength: 13,
+    continent: Continent.europe,
   );
   static const CountryModel azerbaijan = CountryModel(
     name: CountryKeys.azerbaijan,
@@ -133,6 +148,7 @@ class Country {
     countryCode: 994,
     isoCode: 'AZ',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel bahamas = CountryModel(
     name: CountryKeys.bahamas,
@@ -141,6 +157,7 @@ class Country {
     countryCode: 1242,
     isoCode: 'BS',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel bahrain = CountryModel(
     name: CountryKeys.bahrain,
@@ -149,6 +166,7 @@ class Country {
     countryCode: 973,
     isoCode: 'BH',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel bangladesh = CountryModel(
     name: CountryKeys.bangladesh,
@@ -157,6 +175,7 @@ class Country {
     countryCode: 880,
     isoCode: 'BD',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel barbados = CountryModel(
     name: CountryKeys.barbados,
@@ -165,6 +184,7 @@ class Country {
     countryCode: 1246,
     isoCode: 'BB',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel belarus = CountryModel(
     name: CountryKeys.belarus,
@@ -173,6 +193,7 @@ class Country {
     countryCode: 375,
     isoCode: 'BY',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel belgium = CountryModel(
     name: CountryKeys.belgium,
@@ -181,6 +202,7 @@ class Country {
     countryCode: 32,
     isoCode: 'BE',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel belize = CountryModel(
     name: CountryKeys.belize,
@@ -189,6 +211,7 @@ class Country {
     countryCode: 501,
     isoCode: 'BZ',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel benin = CountryModel(
     name: CountryKeys.benin,
@@ -197,6 +220,7 @@ class Country {
     countryCode: 229,
     isoCode: 'BJ',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel bermuda = CountryModel(
     name: CountryKeys.bermuda,
@@ -205,6 +229,7 @@ class Country {
     countryCode: 1441,
     isoCode: 'BM',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel bhutan = CountryModel(
     name: CountryKeys.bhutan,
@@ -213,6 +238,7 @@ class Country {
     countryCode: 975,
     isoCode: 'BT',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel boliviaPlurinationalStateOf = CountryModel(
     name: CountryKeys.boliviaPlurinationalStateOf,
@@ -221,6 +247,7 @@ class Country {
     countryCode: 591,
     isoCode: 'BO',
     maxLength: 8,
+    continent: Continent.southAmerica,
   );
   static const CountryModel bonaireSintEustatiusAndSaba = CountryModel(
     name: CountryKeys.bonaireSintEustatiusAndSaba,
@@ -229,6 +256,7 @@ class Country {
     countryCode: 599,
     isoCode: 'BQ',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel bosniaAndHerzegovina = CountryModel(
     name: CountryKeys.bosniaAndHerzegovina,
@@ -237,6 +265,7 @@ class Country {
     countryCode: 387,
     isoCode: 'BA',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel botswana = CountryModel(
     name: CountryKeys.botswana,
@@ -245,6 +274,7 @@ class Country {
     countryCode: 267,
     isoCode: 'BW',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel bouvetIsland = CountryModel(
     name: CountryKeys.bouvetIsland,
@@ -253,6 +283,7 @@ class Country {
     countryCode: 47,
     isoCode: 'BV',
     maxLength: 15,
+    continent: Continent.antarctica,
   );
   static const CountryModel brazil = CountryModel(
     name: CountryKeys.brazil,
@@ -261,6 +292,7 @@ class Country {
     countryCode: 55,
     isoCode: 'BR',
     maxLength: 10,
+    continent: Continent.southAmerica,
   );
   static const CountryModel britishIndianOceanTerritory = CountryModel(
     name: CountryKeys.britishIndianOceanTerritory,
@@ -269,6 +301,7 @@ class Country {
     countryCode: 246,
     isoCode: 'IO',
     maxLength: 7,
+    continent: Continent.asia,
   );
   static const CountryModel unitedStatesMinorOutlyingIslands = CountryModel(
     name: CountryKeys.unitedStatesMinorOutlyingIslands,
@@ -277,6 +310,7 @@ class Country {
     countryCode: 11,
     isoCode: 'UM',
     maxLength: 5,
+    continent: Continent.oceania,
   );
   static const CountryModel virginIslandsBritish = CountryModel(
     name: CountryKeys.virginIslandsBritish,
@@ -285,6 +319,7 @@ class Country {
     countryCode: 1248,
     isoCode: 'VG',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel virginIslandsUS = CountryModel(
     name: CountryKeys.virginIslandsUS,
@@ -293,6 +328,7 @@ class Country {
     countryCode: 1340,
     isoCode: 'VI',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel bruneiDarussalam = CountryModel(
     name: CountryKeys.bruneiDarussalam,
@@ -301,6 +337,7 @@ class Country {
     countryCode: 673,
     isoCode: 'BN',
     maxLength: 7,
+    continent: Continent.asia,
   );
   static const CountryModel bulgaria = CountryModel(
     name: CountryKeys.bulgaria,
@@ -309,6 +346,7 @@ class Country {
     countryCode: 359,
     isoCode: 'BG',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel burkinaFaso = CountryModel(
     name: CountryKeys.burkinaFaso,
@@ -317,6 +355,7 @@ class Country {
     countryCode: 226,
     isoCode: 'BF',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel burundi = CountryModel(
     name: CountryKeys.burundi,
@@ -325,6 +364,7 @@ class Country {
     countryCode: 257,
     isoCode: 'BI',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel cambodia = CountryModel(
     name: CountryKeys.cambodia,
@@ -333,6 +373,7 @@ class Country {
     countryCode: 855,
     isoCode: 'KH',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel cameroon = CountryModel(
     name: CountryKeys.cameroon,
@@ -341,6 +382,7 @@ class Country {
     countryCode: 237,
     isoCode: 'CM',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel canada = CountryModel(
     name: CountryKeys.canada,
@@ -349,6 +391,7 @@ class Country {
     countryCode: 1,
     isoCode: 'CA',
     maxLength: 10,
+    continent: Continent.northAmerica,
   );
   static const CountryModel caboVerde = CountryModel(
     name: CountryKeys.caboVerde,
@@ -357,6 +400,7 @@ class Country {
     countryCode: 238,
     isoCode: 'CV',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel caymanIslands = CountryModel(
     name: CountryKeys.caymanIslands,
@@ -365,6 +409,7 @@ class Country {
     countryCode: 345,
     isoCode: 'KY',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel centralAfricanRepublic = CountryModel(
     name: CountryKeys.centralAfricanRepublic,
@@ -373,6 +418,7 @@ class Country {
     countryCode: 236,
     isoCode: 'CF',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel chad = CountryModel(
     name: CountryKeys.chad,
@@ -381,6 +427,7 @@ class Country {
     countryCode: 235,
     isoCode: 'TD',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel chile = CountryModel(
     name: CountryKeys.chile,
@@ -389,6 +436,7 @@ class Country {
     countryCode: 56,
     isoCode: 'CL',
     maxLength: 9,
+    continent: Continent.southAmerica,
   );
   static const CountryModel china = CountryModel(
     name: CountryKeys.china,
@@ -397,6 +445,7 @@ class Country {
     countryCode: 86,
     isoCode: 'CN',
     maxLength: 12,
+    continent: Continent.asia,
   );
   static const CountryModel christmasIsland = CountryModel(
     name: CountryKeys.christmasIsland,
@@ -405,6 +454,7 @@ class Country {
     countryCode: 61,
     isoCode: 'CX',
     maxLength: 15,
+    continent: Continent.oceania,
   );
   static const CountryModel cocosKeelingIslands = CountryModel(
     name: CountryKeys.cocosKeelingIslands,
@@ -413,6 +463,7 @@ class Country {
     countryCode: 61,
     isoCode: 'CC',
     maxLength: 15,
+    continent: Continent.asia,
   );
   static const CountryModel colombia = CountryModel(
     name: CountryKeys.colombia,
@@ -421,6 +472,7 @@ class Country {
     countryCode: 57,
     isoCode: 'CO',
     maxLength: 0,
+    continent: Continent.southAmerica,
   );
   static const CountryModel comoros = CountryModel(
     name: CountryKeys.comoros,
@@ -429,6 +481,7 @@ class Country {
     countryCode: 269,
     isoCode: 'KM',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel congo = CountryModel(
     name: CountryKeys.congo,
@@ -437,6 +490,7 @@ class Country {
     countryCode: 242,
     isoCode: 'CG',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel congoDemocraticRepublicOfThe = CountryModel(
     name: CountryKeys.congoDemocraticRepublicOfThe,
@@ -445,6 +499,7 @@ class Country {
     countryCode: 243,
     isoCode: 'CD',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel cookIslands = CountryModel(
     name: CountryKeys.cookIslands,
@@ -453,6 +508,7 @@ class Country {
     countryCode: 682,
     isoCode: 'CK',
     maxLength: 5,
+    continent: Continent.oceania,
   );
   static const CountryModel costaRica = CountryModel(
     name: CountryKeys.costaRica,
@@ -461,6 +517,7 @@ class Country {
     countryCode: 506,
     isoCode: 'CR',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel croatia = CountryModel(
     name: CountryKeys.croatia,
@@ -469,6 +526,7 @@ class Country {
     countryCode: 385,
     isoCode: 'HR',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel cuba = CountryModel(
     name: CountryKeys.cuba,
@@ -477,6 +535,7 @@ class Country {
     countryCode: 53,
     isoCode: 'CU',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel curacao = CountryModel(
     name: CountryKeys.curacao,
@@ -485,6 +544,7 @@ class Country {
     countryCode: 599,
     isoCode: 'CW',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel cyprus = CountryModel(
     name: CountryKeys.cyprus,
@@ -493,6 +553,7 @@ class Country {
     countryCode: 357,
     isoCode: 'CY',
     maxLength: 1,
+    continent: Continent.asia,
   );
   static const CountryModel czechRepublic = CountryModel(
     name: CountryKeys.czechRepublic,
@@ -501,6 +562,7 @@ class Country {
     countryCode: 420,
     isoCode: 'CZ',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel denmark = CountryModel(
     name: CountryKeys.denmark,
@@ -509,6 +571,7 @@ class Country {
     countryCode: 45,
     isoCode: 'DK',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel djibouti = CountryModel(
     name: CountryKeys.djibouti,
@@ -517,6 +580,7 @@ class Country {
     countryCode: 253,
     isoCode: 'DJ',
     maxLength: 6,
+    continent: Continent.africa,
   );
   static const CountryModel dominica = CountryModel(
     name: CountryKeys.dominica,
@@ -525,6 +589,7 @@ class Country {
     countryCode: 1767,
     isoCode: 'DM',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel dominicanRepublic = CountryModel(
     name: CountryKeys.dominicanRepublic,
@@ -533,6 +598,7 @@ class Country {
     countryCode: 1849,
     isoCode: 'DO',
     maxLength: 12,
+    continent: Continent.northAmerica,
   );
   static const CountryModel ecuador = CountryModel(
     name: CountryKeys.ecuador,
@@ -541,6 +607,7 @@ class Country {
     countryCode: 593,
     isoCode: 'EC',
     maxLength: 8,
+    continent: Continent.southAmerica,
   );
   static const CountryModel egypt = CountryModel(
     name: CountryKeys.egypt,
@@ -549,6 +616,7 @@ class Country {
     countryCode: 20,
     isoCode: 'EG',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel elSalvador = CountryModel(
     name: CountryKeys.elSalvador,
@@ -557,6 +625,7 @@ class Country {
     countryCode: 503,
     isoCode: 'SV',
     maxLength: 11,
+    continent: Continent.northAmerica,
   );
   static const CountryModel equatorialGuinea = CountryModel(
     name: CountryKeys.equatorialGuinea,
@@ -565,6 +634,7 @@ class Country {
     countryCode: 240,
     isoCode: 'GQ',
     maxLength: 6,
+    continent: Continent.africa,
   );
   static const CountryModel eritrea = CountryModel(
     name: CountryKeys.eritrea,
@@ -573,6 +643,7 @@ class Country {
     countryCode: 291,
     isoCode: 'ER',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel estonia = CountryModel(
     name: CountryKeys.estonia,
@@ -581,6 +652,7 @@ class Country {
     countryCode: 372,
     isoCode: 'EE',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel ethiopia = CountryModel(
     name: CountryKeys.ethiopia,
@@ -589,6 +661,7 @@ class Country {
     countryCode: 251,
     isoCode: 'ET',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel falklandIslandsMalvinas = CountryModel(
     name: CountryKeys.falklandIslandsMalvinas,
@@ -597,6 +670,7 @@ class Country {
     countryCode: 500,
     isoCode: 'FK',
     maxLength: 5,
+    continent: Continent.southAmerica,
   );
   static const CountryModel faroeIslands = CountryModel(
     name: CountryKeys.faroeIslands,
@@ -605,6 +679,7 @@ class Country {
     countryCode: 298,
     isoCode: 'FO',
     maxLength: 6,
+    continent: Continent.europe,
   );
   static const CountryModel fiji = CountryModel(
     name: CountryKeys.fiji,
@@ -613,6 +688,7 @@ class Country {
     countryCode: 679,
     isoCode: 'FJ',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel finland = CountryModel(
     name: CountryKeys.finland,
@@ -621,6 +697,7 @@ class Country {
     countryCode: 358,
     isoCode: 'FI',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel france = CountryModel(
     name: CountryKeys.france,
@@ -629,6 +706,7 @@ class Country {
     countryCode: 33,
     isoCode: 'FR',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel frenchGuiana = CountryModel(
     name: CountryKeys.frenchGuiana,
@@ -637,6 +715,7 @@ class Country {
     countryCode: 594,
     isoCode: 'GF',
     maxLength: 15,
+    continent: Continent.southAmerica,
   );
   static const CountryModel frenchPolynesia = CountryModel(
     name: CountryKeys.frenchPolynesia,
@@ -645,6 +724,7 @@ class Country {
     countryCode: 689,
     isoCode: 'PF',
     maxLength: 6,
+    continent: Continent.oceania,
   );
   static const CountryModel frenchSouthernTerritories = CountryModel(
     name: CountryKeys.frenchSouthernTerritories,
@@ -653,6 +733,7 @@ class Country {
     countryCode: 262,
     isoCode: 'TF',
     maxLength: 15,
+    continent: Continent.antarctica,
   );
   static const CountryModel gabon = CountryModel(
     name: CountryKeys.gabon,
@@ -661,6 +742,7 @@ class Country {
     countryCode: 241,
     isoCode: 'GA',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel gambia = CountryModel(
     name: CountryKeys.gambia,
@@ -669,6 +751,7 @@ class Country {
     countryCode: 220,
     isoCode: 'GM',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel georgia = CountryModel(
     name: CountryKeys.georgia,
@@ -677,6 +760,7 @@ class Country {
     countryCode: 995,
     isoCode: 'GE',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel germany = CountryModel(
     name: CountryKeys.germany,
@@ -685,6 +769,7 @@ class Country {
     countryCode: 49,
     isoCode: 'DE',
     maxLength: 13,
+    continent: Continent.europe,
   );
   static const CountryModel ghana = CountryModel(
     name: CountryKeys.ghana,
@@ -693,6 +778,7 @@ class Country {
     countryCode: 233,
     isoCode: 'GH',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel gibraltar = CountryModel(
     name: CountryKeys.gibraltar,
@@ -701,6 +787,7 @@ class Country {
     countryCode: 350,
     isoCode: 'GI',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel greece = CountryModel(
     name: CountryKeys.greece,
@@ -709,6 +796,7 @@ class Country {
     countryCode: 30,
     isoCode: 'GR',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel greenland = CountryModel(
     name: CountryKeys.greenland,
@@ -717,6 +805,7 @@ class Country {
     countryCode: 299,
     isoCode: 'GL',
     maxLength: 6,
+    continent: Continent.northAmerica,
   );
   static const CountryModel grenada = CountryModel(
     name: CountryKeys.grenada,
@@ -725,6 +814,7 @@ class Country {
     countryCode: 1473,
     isoCode: 'GD',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel guadeloupe = CountryModel(
     name: CountryKeys.guadeloupe,
@@ -733,6 +823,7 @@ class Country {
     countryCode: 590,
     isoCode: 'GP',
     maxLength: 15,
+    continent: Continent.northAmerica,
   );
   static const CountryModel guam = CountryModel(
     name: CountryKeys.guam,
@@ -741,6 +832,7 @@ class Country {
     countryCode: 1671,
     isoCode: 'GU',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel guatemala = CountryModel(
     name: CountryKeys.guatemala,
@@ -749,6 +841,7 @@ class Country {
     countryCode: 502,
     isoCode: 'GT',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel guernsey = CountryModel(
     name: CountryKeys.guernsey,
@@ -757,6 +850,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GG',
     maxLength: 6,
+    continent: Continent.europe,
   );
   static const CountryModel guinea = CountryModel(
     name: CountryKeys.guinea,
@@ -765,6 +859,7 @@ class Country {
     countryCode: 224,
     isoCode: 'GN',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel guineaBissau = CountryModel(
     name: CountryKeys.guineaBissau,
@@ -773,6 +868,7 @@ class Country {
     countryCode: 245,
     isoCode: 'GW',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel guyana = CountryModel(
     name: CountryKeys.guyana,
@@ -781,6 +877,7 @@ class Country {
     countryCode: 592,
     isoCode: 'GY',
     maxLength: 7,
+    continent: Continent.southAmerica,
   );
   static const CountryModel haiti = CountryModel(
     name: CountryKeys.haiti,
@@ -789,6 +886,7 @@ class Country {
     countryCode: 509,
     isoCode: 'HT',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel heardIslandAndMcDonaldIslands = CountryModel(
     name: CountryKeys.heardIslandAndMcDonaldIslands,
@@ -797,6 +895,7 @@ class Country {
     countryCode: 672,
     isoCode: 'HM',
     maxLength: 15,
+    continent: Continent.antarctica,
   );
   static const CountryModel holySee = CountryModel(
     name: CountryKeys.holySee,
@@ -805,6 +904,7 @@ class Country {
     countryCode: 379,
     isoCode: 'VA',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel honduras = CountryModel(
     name: CountryKeys.honduras,
@@ -813,6 +913,7 @@ class Country {
     countryCode: 504,
     isoCode: 'HN',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel hongKong = CountryModel(
     name: CountryKeys.hongKong,
@@ -821,6 +922,7 @@ class Country {
     countryCode: 852,
     isoCode: 'HK',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel hungary = CountryModel(
     name: CountryKeys.hungary,
@@ -829,6 +931,7 @@ class Country {
     countryCode: 36,
     isoCode: 'HU',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel iceland = CountryModel(
     name: CountryKeys.iceland,
@@ -837,6 +940,7 @@ class Country {
     countryCode: 354,
     isoCode: 'IS',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel india = CountryModel(
     name: CountryKeys.india,
@@ -845,6 +949,7 @@ class Country {
     countryCode: 91,
     isoCode: 'IN',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel indonesia = CountryModel(
     name: CountryKeys.indonesia,
@@ -853,6 +958,7 @@ class Country {
     countryCode: 62,
     isoCode: 'ID',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel coteDIvoire = CountryModel(
     name: CountryKeys.coteDIvoire,
@@ -861,6 +967,7 @@ class Country {
     countryCode: 225,
     isoCode: 'CI',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel iranIslamicRepublicOf = CountryModel(
     name: CountryKeys.iranIslamicRepublicOf,
@@ -869,6 +976,7 @@ class Country {
     countryCode: 98,
     isoCode: 'IR',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel iraq = CountryModel(
     name: CountryKeys.iraq,
@@ -877,6 +985,7 @@ class Country {
     countryCode: 964,
     isoCode: 'IQ',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel ireland = CountryModel(
     name: CountryKeys.ireland,
@@ -885,6 +994,7 @@ class Country {
     countryCode: 353,
     isoCode: 'IE',
     maxLength: 11,
+    continent: Continent.europe,
   );
   static const CountryModel isleOfMan = CountryModel(
     name: CountryKeys.isleOfMan,
@@ -893,6 +1003,7 @@ class Country {
     countryCode: 44,
     isoCode: 'IM',
     maxLength: 6,
+    continent: Continent.europe,
   );
   static const CountryModel israel = CountryModel(
     name: CountryKeys.israel,
@@ -901,6 +1012,7 @@ class Country {
     countryCode: 972,
     isoCode: 'IL',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel italy = CountryModel(
     name: CountryKeys.italy,
@@ -909,6 +1021,7 @@ class Country {
     countryCode: 39,
     isoCode: 'IT',
     maxLength: 13,
+    continent: Continent.europe,
   );
   static const CountryModel jamaica = CountryModel(
     name: CountryKeys.jamaica,
@@ -917,6 +1030,7 @@ class Country {
     countryCode: 1876,
     isoCode: 'JM',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel japan = CountryModel(
     name: CountryKeys.japan,
@@ -925,6 +1039,7 @@ class Country {
     countryCode: 81,
     isoCode: 'JP',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel jersey = CountryModel(
     name: CountryKeys.jersey,
@@ -933,6 +1048,7 @@ class Country {
     countryCode: 44,
     isoCode: 'JE',
     maxLength: 6,
+    continent: Continent.europe,
   );
   static const CountryModel jordan = CountryModel(
     name: CountryKeys.jordan,
@@ -941,6 +1057,7 @@ class Country {
     countryCode: 962,
     isoCode: 'JO',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel kazakhstan = CountryModel(
     name: CountryKeys.kazakhstan,
@@ -949,6 +1066,7 @@ class Country {
     countryCode: 7,
     isoCode: 'KZ',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel kenya = CountryModel(
     name: CountryKeys.kenya,
@@ -957,6 +1075,7 @@ class Country {
     countryCode: 254,
     isoCode: 'KE',
     maxLength: 10,
+    continent: Continent.africa,
   );
   static const CountryModel kiribati = CountryModel(
     name: CountryKeys.kiribati,
@@ -965,6 +1084,7 @@ class Country {
     countryCode: 686,
     isoCode: 'KI',
     maxLength: 5,
+    continent: Continent.oceania,
   );
   static const CountryModel kuwait = CountryModel(
     name: CountryKeys.kuwait,
@@ -973,6 +1093,7 @@ class Country {
     countryCode: 965,
     isoCode: 'KW',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel kyrgyzstan = CountryModel(
     name: CountryKeys.kyrgyzstan,
@@ -981,6 +1102,7 @@ class Country {
     countryCode: 996,
     isoCode: 'KG',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel laoPeoplesDemocraticRepublic = CountryModel(
     name: CountryKeys.laoPeoplesDemocraticRepublic,
@@ -989,6 +1111,7 @@ class Country {
     countryCode: 856,
     isoCode: 'LA',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel latvia = CountryModel(
     name: CountryKeys.latvia,
@@ -997,6 +1120,7 @@ class Country {
     countryCode: 371,
     isoCode: 'LV',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel lebanon = CountryModel(
     name: CountryKeys.lebanon,
@@ -1005,6 +1129,7 @@ class Country {
     countryCode: 961,
     isoCode: 'LB',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel lesotho = CountryModel(
     name: CountryKeys.lesotho,
@@ -1013,6 +1138,7 @@ class Country {
     countryCode: 266,
     isoCode: 'LS',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel liberia = CountryModel(
     name: CountryKeys.liberia,
@@ -1021,6 +1147,7 @@ class Country {
     countryCode: 231,
     isoCode: 'LR',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel libya = CountryModel(
     name: CountryKeys.libya,
@@ -1029,6 +1156,7 @@ class Country {
     countryCode: 218,
     isoCode: 'LY',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel liechtenstein = CountryModel(
     name: CountryKeys.liechtenstein,
@@ -1037,6 +1165,7 @@ class Country {
     countryCode: 423,
     isoCode: 'LI',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel lithuania = CountryModel(
     name: CountryKeys.lithuania,
@@ -1045,6 +1174,7 @@ class Country {
     countryCode: 370,
     isoCode: 'LT',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel luxembourg = CountryModel(
     name: CountryKeys.luxembourg,
@@ -1053,6 +1183,7 @@ class Country {
     countryCode: 352,
     isoCode: 'LU',
     maxLength: 11,
+    continent: Continent.europe,
   );
   static const CountryModel macao = CountryModel(
     name: CountryKeys.macao,
@@ -1061,6 +1192,7 @@ class Country {
     countryCode: 853,
     isoCode: 'MO',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel macedoniaTheFormerYugoslavRepublicOf = CountryModel(
     name: CountryKeys.macedoniaTheFormerYugoslavRepublicOf,
@@ -1069,6 +1201,7 @@ class Country {
     countryCode: 389,
     isoCode: 'MK',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel madagascar = CountryModel(
     name: CountryKeys.madagascar,
@@ -1077,6 +1210,7 @@ class Country {
     countryCode: 261,
     isoCode: 'MG',
     maxLength: 10,
+    continent: Continent.africa,
   );
   static const CountryModel malawi = CountryModel(
     name: CountryKeys.malawi,
@@ -1085,6 +1219,7 @@ class Country {
     countryCode: 265,
     isoCode: 'MW',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel malaysia = CountryModel(
     name: CountryKeys.malaysia,
@@ -1093,6 +1228,7 @@ class Country {
     countryCode: 60,
     isoCode: 'MY',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel maldives = CountryModel(
     name: CountryKeys.maldives,
@@ -1101,6 +1237,7 @@ class Country {
     countryCode: 960,
     isoCode: 'MV',
     maxLength: 7,
+    continent: Continent.asia,
   );
   static const CountryModel mali = CountryModel(
     name: CountryKeys.mali,
@@ -1109,6 +1246,7 @@ class Country {
     countryCode: 223,
     isoCode: 'ML',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel malta = CountryModel(
     name: CountryKeys.malta,
@@ -1117,6 +1255,7 @@ class Country {
     countryCode: 356,
     isoCode: 'MT',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel marshallIslands = CountryModel(
     name: CountryKeys.marshallIslands,
@@ -1125,6 +1264,7 @@ class Country {
     countryCode: 692,
     isoCode: 'MH',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel martinique = CountryModel(
     name: CountryKeys.martinique,
@@ -1133,6 +1273,7 @@ class Country {
     countryCode: 596,
     isoCode: 'MQ',
     maxLength: 15,
+    continent: Continent.northAmerica,
   );
   static const CountryModel mauritania = CountryModel(
     name: CountryKeys.mauritania,
@@ -1141,6 +1282,7 @@ class Country {
     countryCode: 222,
     isoCode: 'MR',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel mauritius = CountryModel(
     name: CountryKeys.mauritius,
@@ -1149,6 +1291,7 @@ class Country {
     countryCode: 230,
     isoCode: 'MU',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel mayotte = CountryModel(
     name: CountryKeys.mayotte,
@@ -1157,6 +1300,7 @@ class Country {
     countryCode: 262,
     isoCode: 'YT',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel mexico = CountryModel(
     name: CountryKeys.mexico,
@@ -1165,6 +1309,7 @@ class Country {
     countryCode: 52,
     isoCode: 'MX',
     maxLength: 10,
+    continent: Continent.northAmerica,
   );
   static const CountryModel micronesiaFederatedStatesOf = CountryModel(
     name: CountryKeys.micronesiaFederatedStatesOf,
@@ -1173,6 +1318,7 @@ class Country {
     countryCode: 691,
     isoCode: 'FM',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel moldovaRepublicOf = CountryModel(
     name: CountryKeys.moldovaRepublicOf,
@@ -1181,6 +1327,7 @@ class Country {
     countryCode: 373,
     isoCode: 'MD',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel monaco = CountryModel(
     name: CountryKeys.monaco,
@@ -1189,6 +1336,7 @@ class Country {
     countryCode: 377,
     isoCode: 'MC',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel mongolia = CountryModel(
     name: CountryKeys.mongolia,
@@ -1197,6 +1345,7 @@ class Country {
     countryCode: 976,
     isoCode: 'MN',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel montenegro = CountryModel(
     name: CountryKeys.montenegro,
@@ -1205,6 +1354,7 @@ class Country {
     countryCode: 382,
     isoCode: 'ME',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel montserrat = CountryModel(
     name: CountryKeys.montserrat,
@@ -1213,6 +1363,7 @@ class Country {
     countryCode: 1664,
     isoCode: 'MS',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel morocco = CountryModel(
     name: CountryKeys.morocco,
@@ -1221,6 +1372,7 @@ class Country {
     countryCode: 212,
     isoCode: 'MA',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel mozambique = CountryModel(
     name: CountryKeys.mozambique,
@@ -1229,6 +1381,7 @@ class Country {
     countryCode: 258,
     isoCode: 'MZ',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel myanmar = CountryModel(
     name: CountryKeys.myanmar,
@@ -1237,6 +1390,7 @@ class Country {
     countryCode: 95,
     isoCode: 'MM',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel namibia = CountryModel(
     name: CountryKeys.namibia,
@@ -1245,6 +1399,7 @@ class Country {
     countryCode: 264,
     isoCode: 'NA',
     maxLength: 10,
+    continent: Continent.africa,
   );
   static const CountryModel nauru = CountryModel(
     name: CountryKeys.nauru,
@@ -1253,6 +1408,7 @@ class Country {
     countryCode: 674,
     isoCode: 'NR',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel nepal = CountryModel(
     name: CountryKeys.nepal,
@@ -1261,6 +1417,7 @@ class Country {
     countryCode: 977,
     isoCode: 'NP',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel netherlands = CountryModel(
     name: CountryKeys.netherlands,
@@ -1269,6 +1426,7 @@ class Country {
     countryCode: 31,
     isoCode: 'NL',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel newCaledonia = CountryModel(
     name: CountryKeys.newCaledonia,
@@ -1277,6 +1435,7 @@ class Country {
     countryCode: 687,
     isoCode: 'NC',
     maxLength: 6,
+    continent: Continent.oceania,
   );
   static const CountryModel newZealand = CountryModel(
     name: CountryKeys.newZealand,
@@ -1285,6 +1444,7 @@ class Country {
     countryCode: 64,
     isoCode: 'NZ',
     maxLength: 10,
+    continent: Continent.oceania,
   );
   static const CountryModel nicaragua = CountryModel(
     name: CountryKeys.nicaragua,
@@ -1293,6 +1453,7 @@ class Country {
     countryCode: 505,
     isoCode: 'NI',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel niger = CountryModel(
     name: CountryKeys.niger,
@@ -1301,6 +1462,7 @@ class Country {
     countryCode: 227,
     isoCode: 'NE',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel nigeria = CountryModel(
     name: CountryKeys.nigeria,
@@ -1309,6 +1471,7 @@ class Country {
     countryCode: 234,
     isoCode: 'NG',
     maxLength: 10,
+    continent: Continent.africa,
   );
   static const CountryModel niue = CountryModel(
     name: CountryKeys.niue,
@@ -1317,6 +1480,7 @@ class Country {
     countryCode: 683,
     isoCode: 'NU',
     maxLength: 4,
+    continent: Continent.oceania,
   );
   static const CountryModel norfolkIsland = CountryModel(
     name: CountryKeys.norfolkIsland,
@@ -1325,6 +1489,7 @@ class Country {
     countryCode: 672,
     isoCode: 'NF',
     maxLength: 15,
+    continent: Continent.oceania,
   );
   static const CountryModel koreaDemocraticPeoplesRepublicOf = CountryModel(
     name: CountryKeys.koreaDemocraticPeoplesRepublicOf,
@@ -1333,6 +1498,7 @@ class Country {
     countryCode: 850,
     isoCode: 'KP',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel northernMarianaIslands = CountryModel(
     name: CountryKeys.northernMarianaIslands,
@@ -1341,6 +1507,7 @@ class Country {
     countryCode: 1670,
     isoCode: 'MP',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel norway = CountryModel(
     name: CountryKeys.norway,
@@ -1349,6 +1516,7 @@ class Country {
     countryCode: 47,
     isoCode: 'NO',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel oman = CountryModel(
     name: CountryKeys.oman,
@@ -1357,6 +1525,7 @@ class Country {
     countryCode: 968,
     isoCode: 'OM',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel pakistan = CountryModel(
     name: CountryKeys.pakistan,
@@ -1365,6 +1534,7 @@ class Country {
     countryCode: 92,
     isoCode: 'PK',
     maxLength: 11,
+    continent: Continent.asia,
   );
   static const CountryModel palau = CountryModel(
     name: CountryKeys.palau,
@@ -1373,6 +1543,7 @@ class Country {
     countryCode: 680,
     isoCode: 'PW',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel palestineStateOf = CountryModel(
     name: CountryKeys.palestineStateOf,
@@ -1381,6 +1552,7 @@ class Country {
     countryCode: 970,
     isoCode: 'PS',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel panama = CountryModel(
     name: CountryKeys.panama,
@@ -1389,6 +1561,7 @@ class Country {
     countryCode: 507,
     isoCode: 'PA',
     maxLength: 8,
+    continent: Continent.northAmerica,
   );
   static const CountryModel papuaNewGuinea = CountryModel(
     name: CountryKeys.papuaNewGuinea,
@@ -1397,6 +1570,7 @@ class Country {
     countryCode: 675,
     isoCode: 'PG',
     maxLength: 11,
+    continent: Continent.oceania,
   );
   static const CountryModel paraguay = CountryModel(
     name: CountryKeys.paraguay,
@@ -1405,6 +1579,7 @@ class Country {
     countryCode: 595,
     isoCode: 'PY',
     maxLength: 9,
+    continent: Continent.southAmerica,
   );
   static const CountryModel peru = CountryModel(
     name: CountryKeys.peru,
@@ -1413,6 +1588,7 @@ class Country {
     countryCode: 51,
     isoCode: 'PE',
     maxLength: 11,
+    continent: Continent.southAmerica,
   );
   static const CountryModel philippines = CountryModel(
     name: CountryKeys.philippines,
@@ -1421,6 +1597,7 @@ class Country {
     countryCode: 63,
     isoCode: 'PH',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel pitcairn = CountryModel(
     name: CountryKeys.pitcairn,
@@ -1429,6 +1606,7 @@ class Country {
     countryCode: 64,
     isoCode: 'PN',
     maxLength: 10,
+    continent: Continent.oceania,
   );
   static const CountryModel poland = CountryModel(
     name: CountryKeys.poland,
@@ -1437,6 +1615,7 @@ class Country {
     countryCode: 48,
     isoCode: 'PL',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel portugal = CountryModel(
     name: CountryKeys.portugal,
@@ -1445,6 +1624,7 @@ class Country {
     countryCode: 351,
     isoCode: 'PT',
     maxLength: 1,
+    continent: Continent.europe,
   );
   static const CountryModel puertoRico = CountryModel(
     name: CountryKeys.puertoRico,
@@ -1453,6 +1633,7 @@ class Country {
     countryCode: 1939,
     isoCode: 'PR',
     maxLength: 15,
+    continent: Continent.northAmerica,
   );
   static const CountryModel qatar = CountryModel(
     name: CountryKeys.qatar,
@@ -1461,6 +1642,7 @@ class Country {
     countryCode: 974,
     isoCode: 'QA',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel republicOfKosovo = CountryModel(
     name: CountryKeys.republicOfKosovo,
@@ -1469,6 +1651,7 @@ class Country {
     countryCode: 383,
     isoCode: 'XK',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel reunion = CountryModel(
     name: CountryKeys.reunion,
@@ -1477,6 +1660,7 @@ class Country {
     countryCode: 262,
     isoCode: 'RE',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel romania = CountryModel(
     name: CountryKeys.romania,
@@ -1485,6 +1669,7 @@ class Country {
     countryCode: 40,
     isoCode: 'RO',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel russianFederation = CountryModel(
     name: CountryKeys.russianFederation,
@@ -1493,6 +1678,7 @@ class Country {
     countryCode: 7,
     isoCode: 'RU',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel rwanda = CountryModel(
     name: CountryKeys.rwanda,
@@ -1501,6 +1687,7 @@ class Country {
     countryCode: 250,
     isoCode: 'RW',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel saintBarthelemy = CountryModel(
     name: CountryKeys.saintBarthelemy,
@@ -1509,6 +1696,7 @@ class Country {
     countryCode: 590,
     isoCode: 'BL',
     maxLength: 9,
+    continent: Continent.northAmerica,
   );
   static const CountryModel saintHelenaAscensionAndTristanDaCunha =
       CountryModel(
@@ -1518,6 +1706,7 @@ class Country {
     countryCode: 290,
     isoCode: 'SH',
     maxLength: 4,
+    continent: Continent.africa,
   );
   static const CountryModel saintKittsAndNevis = CountryModel(
     name: CountryKeys.saintKittsAndNevis,
@@ -1526,6 +1715,7 @@ class Country {
     countryCode: 1869,
     isoCode: 'KN',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel saintLucia = CountryModel(
     name: CountryKeys.saintLucia,
@@ -1534,6 +1724,7 @@ class Country {
     countryCode: 1758,
     isoCode: 'LC',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel saintMartinFrenchPart = CountryModel(
     name: CountryKeys.saintMartinFrenchPart,
@@ -1542,6 +1733,7 @@ class Country {
     countryCode: 590,
     isoCode: 'MF',
     maxLength: 9,
+    continent: Continent.northAmerica,
   );
   static const CountryModel saintPierreAndMiquelon = CountryModel(
     name: CountryKeys.saintPierreAndMiquelon,
@@ -1550,6 +1742,7 @@ class Country {
     countryCode: 508,
     isoCode: 'PM',
     maxLength: 6,
+    continent: Continent.northAmerica,
   );
   static const CountryModel saintVincentAndTheGrenadines = CountryModel(
     name: CountryKeys.saintVincentAndTheGrenadines,
@@ -1558,6 +1751,7 @@ class Country {
     countryCode: 1784,
     isoCode: 'VC',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel samoa = CountryModel(
     name: CountryKeys.samoa,
@@ -1566,6 +1760,7 @@ class Country {
     countryCode: 685,
     isoCode: 'WS',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel sanMarino = CountryModel(
     name: CountryKeys.sanMarino,
@@ -1574,6 +1769,7 @@ class Country {
     countryCode: 378,
     isoCode: 'SM',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel saoTomeAndPrincipe = CountryModel(
     name: CountryKeys.saoTomeAndPrincipe,
@@ -1582,6 +1778,7 @@ class Country {
     countryCode: 239,
     isoCode: 'ST',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel saudiArabia = CountryModel(
     name: CountryKeys.saudiArabia,
@@ -1590,6 +1787,7 @@ class Country {
     countryCode: 966,
     isoCode: 'SA',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel senegal = CountryModel(
     name: CountryKeys.senegal,
@@ -1598,6 +1796,7 @@ class Country {
     countryCode: 221,
     isoCode: 'SN',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel serbia = CountryModel(
     name: CountryKeys.serbia,
@@ -1606,6 +1805,7 @@ class Country {
     countryCode: 381,
     isoCode: 'RS',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel seychelles = CountryModel(
     name: CountryKeys.seychelles,
@@ -1614,6 +1814,7 @@ class Country {
     countryCode: 248,
     isoCode: 'SC',
     maxLength: 6,
+    continent: Continent.africa,
   );
   static const CountryModel sierraLeone = CountryModel(
     name: CountryKeys.sierraLeone,
@@ -1622,6 +1823,7 @@ class Country {
     countryCode: 232,
     isoCode: 'SL',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel singapore = CountryModel(
     name: CountryKeys.singapore,
@@ -1630,6 +1832,7 @@ class Country {
     countryCode: 65,
     isoCode: 'SG',
     maxLength: 12,
+    continent: Continent.asia,
   );
   static const CountryModel sintMaartenDutchPart = CountryModel(
     name: CountryKeys.sintMaartenDutchPart,
@@ -1638,6 +1841,7 @@ class Country {
     countryCode: 1721,
     isoCode: 'SX',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel slovakia = CountryModel(
     name: CountryKeys.slovakia,
@@ -1646,6 +1850,7 @@ class Country {
     countryCode: 421,
     isoCode: 'SK',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel slovenia = CountryModel(
     name: CountryKeys.slovenia,
@@ -1654,6 +1859,7 @@ class Country {
     countryCode: 386,
     isoCode: 'SI',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel solomonIslands = CountryModel(
     name: CountryKeys.solomonIslands,
@@ -1662,6 +1868,7 @@ class Country {
     countryCode: 677,
     isoCode: 'SB',
     maxLength: 5,
+    continent: Continent.oceania,
   );
   static const CountryModel somalia = CountryModel(
     name: CountryKeys.somalia,
@@ -1670,6 +1877,7 @@ class Country {
     countryCode: 252,
     isoCode: 'SO',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel southAfrica = CountryModel(
     name: CountryKeys.southAfrica,
@@ -1678,6 +1886,7 @@ class Country {
     countryCode: 27,
     isoCode: 'ZA',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel southGeorgiaAndTheSouthSandwichIslands =
       CountryModel(
@@ -1687,6 +1896,7 @@ class Country {
     countryCode: 500,
     isoCode: 'GS',
     maxLength: 15,
+    continent: Continent.antarctica,
   );
   static const CountryModel koreaRepublicOf = CountryModel(
     name: CountryKeys.koreaRepublicOf,
@@ -1695,6 +1905,7 @@ class Country {
     countryCode: 82,
     isoCode: 'KR',
     maxLength: 11,
+    continent: Continent.asia,
   );
   static const CountryModel southSudan = CountryModel(
     name: CountryKeys.southSudan,
@@ -1703,6 +1914,7 @@ class Country {
     countryCode: 211,
     isoCode: 'SS',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel spain = CountryModel(
     name: CountryKeys.spain,
@@ -1711,6 +1923,7 @@ class Country {
     countryCode: 34,
     isoCode: 'ES',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel sriLanka = CountryModel(
     name: CountryKeys.sriLanka,
@@ -1719,6 +1932,7 @@ class Country {
     countryCode: 94,
     isoCode: 'LK',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel sudan = CountryModel(
     name: CountryKeys.sudan,
@@ -1727,6 +1941,7 @@ class Country {
     countryCode: 249,
     isoCode: 'SD',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel suricountry = CountryModel(
     name: CountryKeys.suricountry,
@@ -1735,6 +1950,7 @@ class Country {
     countryCode: 597,
     isoCode: 'SR',
     maxLength: 7,
+    continent: Continent.southAmerica,
   );
   static const CountryModel svalbardAndJanMayen = CountryModel(
     name: CountryKeys.svalbardAndJanMayen,
@@ -1743,6 +1959,7 @@ class Country {
     countryCode: 47,
     isoCode: 'SJ',
     maxLength: 8,
+    continent: Continent.europe,
   );
   static const CountryModel swaziland = CountryModel(
     name: CountryKeys.swaziland,
@@ -1751,6 +1968,7 @@ class Country {
     countryCode: 268,
     isoCode: 'SZ',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel sweden = CountryModel(
     name: CountryKeys.sweden,
@@ -1759,6 +1977,7 @@ class Country {
     countryCode: 46,
     isoCode: 'SE',
     maxLength: 13,
+    continent: Continent.europe,
   );
   static const CountryModel switzerland = CountryModel(
     name: CountryKeys.switzerland,
@@ -1767,6 +1986,7 @@ class Country {
     countryCode: 41,
     isoCode: 'CH',
     maxLength: 12,
+    continent: Continent.europe,
   );
   static const CountryModel syrianArabRepublic = CountryModel(
     name: CountryKeys.syrianArabRepublic,
@@ -1775,6 +1995,7 @@ class Country {
     countryCode: 963,
     isoCode: 'SY',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel taiwan = CountryModel(
     name: CountryKeys.taiwan,
@@ -1783,6 +2004,7 @@ class Country {
     countryCode: 886,
     isoCode: 'TW',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel tajikistan = CountryModel(
     name: CountryKeys.tajikistan,
@@ -1791,6 +2013,7 @@ class Country {
     countryCode: 992,
     isoCode: 'TJ',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel tanzaniaUnitedRepublicOf = CountryModel(
     name: CountryKeys.tanzaniaUnitedRepublicOf,
@@ -1799,6 +2022,7 @@ class Country {
     countryCode: 255,
     isoCode: 'TZ',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel thailand = CountryModel(
     name: CountryKeys.thailand,
@@ -1807,6 +2031,7 @@ class Country {
     countryCode: 66,
     isoCode: 'TH',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel timorLeste = CountryModel(
     name: CountryKeys.timorLeste,
@@ -1815,6 +2040,7 @@ class Country {
     countryCode: 670,
     isoCode: 'TL',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel togo = CountryModel(
     name: CountryKeys.togo,
@@ -1823,6 +2049,7 @@ class Country {
     countryCode: 228,
     isoCode: 'TG',
     maxLength: 7,
+    continent: Continent.africa,
   );
   static const CountryModel tokelau = CountryModel(
     name: CountryKeys.tokelau,
@@ -1831,6 +2058,7 @@ class Country {
     countryCode: 690,
     isoCode: 'TK',
     maxLength: 4,
+    continent: Continent.oceania,
   );
   static const CountryModel tonga = CountryModel(
     name: CountryKeys.tonga,
@@ -1839,6 +2067,7 @@ class Country {
     countryCode: 676,
     isoCode: 'TO',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel trinidadAndTobago = CountryModel(
     name: CountryKeys.trinidadAndTobago,
@@ -1847,6 +2076,7 @@ class Country {
     countryCode: 1868,
     isoCode: 'TT',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel tunisia = CountryModel(
     name: CountryKeys.tunisia,
@@ -1855,6 +2085,7 @@ class Country {
     countryCode: 216,
     isoCode: 'TN',
     maxLength: 8,
+    continent: Continent.africa,
   );
   static const CountryModel turkey = CountryModel(
     name: CountryKeys.turkey,
@@ -1863,6 +2094,7 @@ class Country {
     countryCode: 90,
     isoCode: 'TR',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel turkmenistan = CountryModel(
     name: CountryKeys.turkmenistan,
@@ -1871,6 +2103,7 @@ class Country {
     countryCode: 993,
     isoCode: 'TM',
     maxLength: 8,
+    continent: Continent.asia,
   );
   static const CountryModel turksAndCaicosIslands = CountryModel(
     name: CountryKeys.turksAndCaicosIslands,
@@ -1879,6 +2112,7 @@ class Country {
     countryCode: 1649,
     isoCode: 'TC',
     maxLength: 7,
+    continent: Continent.northAmerica,
   );
   static const CountryModel tuvalu = CountryModel(
     name: CountryKeys.tuvalu,
@@ -1887,6 +2121,7 @@ class Country {
     countryCode: 688,
     isoCode: 'TV',
     maxLength: 6,
+    continent: Continent.oceania,
   );
   static const CountryModel uganda = CountryModel(
     name: CountryKeys.uganda,
@@ -1895,6 +2130,7 @@ class Country {
     countryCode: 256,
     isoCode: 'UG',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel ukraine = CountryModel(
     name: CountryKeys.ukraine,
@@ -1903,6 +2139,7 @@ class Country {
     countryCode: 380,
     isoCode: 'UA',
     maxLength: 9,
+    continent: Continent.europe,
   );
   static const CountryModel unitedArabEmirates = CountryModel(
     name: CountryKeys.unitedArabEmirates,
@@ -1911,6 +2148,7 @@ class Country {
     countryCode: 971,
     isoCode: 'AE',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel england = CountryModel(
     name: CountryKeys.england,
@@ -1919,6 +2157,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GB - ENG',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel nothernIreland = CountryModel(
     name: CountryKeys.nothernIreland,
@@ -1927,6 +2166,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GB - NIR',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel scotland = CountryModel(
     name: CountryKeys.scotland,
@@ -1935,6 +2175,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GB - SCT',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel wales = CountryModel(
     name: CountryKeys.wales,
@@ -1943,6 +2184,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GB - WLS',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel unitedKingdom = CountryModel(
     name: CountryKeys.unitedKingdom,
@@ -1951,6 +2193,7 @@ class Country {
     countryCode: 44,
     isoCode: 'GB',
     maxLength: 10,
+    continent: Continent.europe,
   );
   static const CountryModel unitedStatesOfAmerica = CountryModel(
     name: CountryKeys.unitedStatesOfAmerica,
@@ -1959,6 +2202,7 @@ class Country {
     countryCode: 1,
     isoCode: 'US',
     maxLength: 10,
+    continent: Continent.northAmerica,
   );
   static const CountryModel uruguay = CountryModel(
     name: CountryKeys.uruguay,
@@ -1967,6 +2211,7 @@ class Country {
     countryCode: 598,
     isoCode: 'UY',
     maxLength: 11,
+    continent: Continent.southAmerica,
   );
   static const CountryModel uzbekistan = CountryModel(
     name: CountryKeys.uzbekistan,
@@ -1975,6 +2220,7 @@ class Country {
     countryCode: 998,
     isoCode: 'UZ',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel vanuatu = CountryModel(
     name: CountryKeys.vanuatu,
@@ -1983,6 +2229,7 @@ class Country {
     countryCode: 678,
     isoCode: 'VU',
     maxLength: 7,
+    continent: Continent.oceania,
   );
   static const CountryModel venezuelaBolivarianRepublicOf = CountryModel(
     name: CountryKeys.venezuelaBolivarianRepublicOf,
@@ -1991,6 +2238,7 @@ class Country {
     countryCode: 58,
     isoCode: 'VE',
     maxLength: 10,
+    continent: Continent.southAmerica,
   );
   static const CountryModel vietnam = CountryModel(
     name: CountryKeys.vietnam,
@@ -1999,6 +2247,7 @@ class Country {
     countryCode: 84,
     isoCode: 'VN',
     maxLength: 10,
+    continent: Continent.asia,
   );
   static const CountryModel wallisAndFutuna = CountryModel(
     name: CountryKeys.wallisAndFutuna,
@@ -2007,6 +2256,7 @@ class Country {
     countryCode: 681,
     isoCode: 'WF',
     maxLength: 6,
+    continent: Continent.oceania,
   );
   static const CountryModel westernSahara = CountryModel(
     name: CountryKeys.westernSahara,
@@ -2015,6 +2265,7 @@ class Country {
     countryCode: 212,
     isoCode: 'EH',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel yemen = CountryModel(
     name: CountryKeys.yemen,
@@ -2023,6 +2274,7 @@ class Country {
     countryCode: 967,
     isoCode: 'YE',
     maxLength: 9,
+    continent: Continent.asia,
   );
   static const CountryModel zambia = CountryModel(
     name: CountryKeys.zambia,
@@ -2031,6 +2283,7 @@ class Country {
     countryCode: 260,
     isoCode: 'ZM',
     maxLength: 9,
+    continent: Continent.africa,
   );
   static const CountryModel zimbabwe = CountryModel(
     name: CountryKeys.zimbabwe,
@@ -2039,5 +2292,6 @@ class Country {
     countryCode: 263,
     isoCode: 'ZW',
     maxLength: 9,
+    continent: Continent.africa,
   );
 }

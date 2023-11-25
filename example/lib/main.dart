@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: const Center(
-          child: CountryPhoneField(),
+          child: CountryPhoneField(continents: [Continent.asia]),
         ),
       ),
     );

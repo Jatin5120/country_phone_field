@@ -10,7 +10,9 @@ class Utility {
 
   static String? ipAddress;
 
-  static Future<CountryModel> get getInitialCountry async {
+  static Future<CountryModel> getInitialCountry(
+    List<Continent>? continents,
+  ) async {
     ipAddress ??= await PhoneRepository.getIP();
     if (ipAddress == null) {
       return kDefaultCountry;
@@ -25,6 +27,7 @@ class Utility {
       return kDefaultCountry;
     }
 
-    return kAllCountries.findByISOCode(isoCode) ?? kDefaultCountry;
+    return kAllCountries.allowedCountries(continents).findByISOCode(isoCode) ??
+        kDefaultCountry;
   }
 }
