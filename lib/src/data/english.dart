@@ -1,6 +1,14 @@
 import 'package:country_phone_field/src/utils/keys.dart';
 
 var en = {
+  ContinentKeys.africa: 'Africa',
+  ContinentKeys.antarctica: 'Antarctica',
+  ContinentKeys.asia: 'Asia',
+  ContinentKeys.europe: 'Europe',
+  ContinentKeys.northAmerica: 'North America',
+  ContinentKeys.oceania: 'Oceania',
+  ContinentKeys.southAmerica: 'South America',
+  // ------------- Countries ---------------
   CountryKeys.afghanistan: 'Afghanistan',
   CountryKeys.alandIslands: 'Åland Islands',
   CountryKeys.albania: 'Albania',

@@ -1,3 +1,15 @@
+class ContinentKeys {
+  const ContinentKeys._();
+
+  static const String africa = 'africa';
+  static const String antarctica = 'antarctica';
+  static const String asia = 'asia';
+  static const String europe = 'europe';
+  static const String northAmerica = 'northAmerica';
+  static const String oceania = 'oceania';
+  static const String southAmerica = 'southAmerica';
+}
+
 class CountryKeys {
   const CountryKeys._();
 
@@ -9,7 +21,7 @@ class CountryKeys {
   static const String andorra = 'andorra';
   static const String angola = 'angola';
   static const String anguilla = 'anguilla';
-  static const String antarctica = 'antarctica';
+  static const String antarctica = 'antarctica-country';
   static const String antiguaAndBarbuda = 'antiguaAndBarbuda';
   static const String argentina = 'argentina';
   static const String armenia = 'armenia';
